@@ -1,16 +1,19 @@
 ### Hi there 👋
 
-<!--
-**ernesteNtezirizaza/ernestentezirizaza** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This project is responsible for generating token that will be used in buying electricity.
 
-Here are some ideas to get you started:
+To get with this this application:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Clone the project using: git clone https://github.com/ernesteNtezirizaza/ernestentezirizaza
+
+After cloning the project navigate to the backend side using: cd server
+
+To get started using backend application. Install all dependencies using: npm install
+
+To run the backend application: nodemon server.js
+
+After navigate to front side: cd client
+
+To get started using frontend application. Install all dependencies using: yarn install
+
+To run front application: yarn dev
