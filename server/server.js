@@ -1,29 +1,24 @@
-const express = require("express");
-const app = express();
-const dotenv = require("dotenv");
-const cors = require("cors");
-const port = process.env.PORT || 6000;
-const cookieParser = require("cookie-parser");
-const connectDB = require("./config/db.config");
-dotenv.config();
-app.use(express.urlencoded({ extended: false }));
-connectDB();
+require('dotenv').config();
 
-app.use(cookieParser());
-app.use(express.json());
+require('./models/db');
+
+const express = require('express');
+const app = express();
+const cors = require('cors');
+const bodyparser = require('body-parser');
+
+//Routes
+const TOKEN_ROUTES = require('./routes/token.route');
+
+
+const PORT = process.env.SERVER_PORT;
+
+
+app.use(bodyparser.urlencoded({extended: true}));
+app.use(bodyparser.json());
 app.use(cors());
 
-const Transactions = require("./routes/Transactions.routes");
-
-app.use("/api/transactions", Transactions);
-
-app.get("/", (req, res) => {
-	res.status(200).json({success: true,message: "Welcome to transactions.",
-	});
-});
+app.use(TOKEN_ROUTES);
 
 
-app.listen(
-	port,
-	console.log(`App is running on port ${port}`)
-);
+app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
