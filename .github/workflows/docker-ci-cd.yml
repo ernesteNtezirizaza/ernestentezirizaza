@@ -36,7 +36,7 @@ jobs:
         run: |
           docker build ./server -t ernestentezirizaza/server
           docker build ./client -t ernestentezirizaza/client
-          docker build ./ngnix -t ernestentezirizaza/nginx
+          docker build ./nginx -t ernestentezirizaza/nginx
       - name: Docker push
         run: |
           docker push ernestentezirizaza/server
