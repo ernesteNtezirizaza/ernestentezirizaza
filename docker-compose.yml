@@ -15,7 +15,7 @@ services:
         - '3000:3000'
   mongo:
     build:
-      context: client
+      context: .
       dockerfile: Dockerfile
 
 volumes:
