@@ -25,8 +25,8 @@ const checkBalancePage = () => {
 };
 
 it("should show an error below amount input", () => {
-  const { meterInput } = buyElectricityPage();
-  fireEvent.change(input, { target: { value: "234" } });
+  const { amountInput } = buyElectricityPage();
+  fireEvent.change(amountInput, { target: { value: "234" } });
   expect(
     screen.getByText("Amount must be a multiple of 100 and less than 182,500")
   ).toBeInTheDocument();
@@ -34,7 +34,7 @@ it("should show an error below amount input", () => {
 
 it("should show an error below meter number input", () => {
   const { meterInput } = buyElectricityPage();
-  fireEvent.change(input, { target: { value: "123" } });
+  fireEvent.change(meterInput, { target: { value: "123" } });
   expect(
     screen.getByText("Invalid meter, only 6 digits accepted")
   ).toBeInTheDocument();
@@ -42,6 +42,6 @@ it("should show an error below meter number input", () => {
 
 it("It should show an error below meter number input", () => {
   const { meterInput } = checkBalancePage();
-  fireEvent.change(input, { target: { value: "123" } });
+  fireEvent.change(meterInput, { target: { value: "123" } });
   expect(screen.getByText("Your meter is invalid")).toBeInTheDocument();
 });
