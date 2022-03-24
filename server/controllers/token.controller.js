@@ -11,31 +11,6 @@ const getAll = async (req, res) => {
     } 
 };
 
-const getAllByStatus = async (req, res) => {
-    try {
-        const tokens = await Token.find({status: req.params.status});
-        return res.status(200).send(SUCCESS_RESPONSE(tokens));
-    } catch (err) {
-        return res.status(500).send(ERROR_RESPONSE(err.toString()));
-    } 
-}
-
-const getByToken = async (req, res) => {
-    try {
-                  
-        if (!validateToken(req.params.token))
-            return res.status(400).send(ERROR_RESPONSE('Invalid Token Format', 'VALIDATION ERROR')); 
-
-        const token = await Token.findOne({token: req.params.token});
-        if (!token)
-            return res.status(404).send(ERROR_RESPONSE('Token not found'));
-
-        return res.status(200).send(SUCCESS_RESPONSE(token));
-    } catch (err) {
-        return res.status(500).send(ERROR_RESPONSE(err.toString()));
-    } 
-}
-
 const getByMeter = async (req, res) => {
     try {
                   
@@ -95,14 +70,6 @@ const create = async (req, res) => {
     } 
 };
 
-const checkToken = async (generated) => {
-    return await Token.findOne({token: generated});
-}
-
-const checkMeter = async(meterNumber) => {
-   return await Token.findOne({meterNumber});
- }
-
 module.exports = {
-    getAll, create, getAllByStatus, getByToken, getByMeter
+    getAll, create, getByMeter
 }
