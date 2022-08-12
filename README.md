@@ -1,19 +1,11 @@
 ### Hi there 👋
 
-This project is responsible for generating token that will be used in buying electricity.
+I am called NTEZIRIZAZA Erneste. I am full stack software developer based in Rwanda because I am used to do both frontend and backend applications. I am here to solve world problems to give efficient solutions.
 
-To get with this this application:
+I do both front end and backend web development. I use HTML, CSS , Vuejs and other libraries. I use Node.js, Spring Boot, MongoDB in backend development. My soft skills include publick speaking, effective communication and making good presentation.
 
-Clone the project using: git clone https://github.com/ernesteNtezirizaza/ernestentezirizaza
+My personal strengths include discipline, creativity, determination, dedication, patience and enthusiasm.
 
-After cloning the project navigate to the backend side using: cd server
+I want to be super genious software developer who break down big problem into sub-problems in order to solve it easier.
 
-To get started using backend application. Install all dependencies using: npm install
 
-To run the backend application: nodemon server.js
-
-After navigate to front side: cd client
-
-To get started using frontend application. Install all dependencies using: yarn install
-
-To run front application: yarn dev
