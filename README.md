@@ -6,6 +6,6 @@ I do both front end and backend web development. I use HTML, CSS , Vuejs and oth
 
 My personal strengths include discipline, creativity, determination, dedication, patience and enthusiasm.
 
-I want to be super genious software developer who break down big problem into sub-problems in order to solve it easier.
+I want to be super genius software developer who breaks down big problem into sub-problems in order to solve it easier.
 
 
