@@ -1,11 +1,12 @@
 ### Hi there 👋
 
-I am called NTEZIRIZAZA Erneste. I am full stack software developer based in Rwanda because I am used to do both frontend and backend applications. I am here to solve world problems to give efficient solutions.
+I am a full-stack software developer from Rwanda with expertise in both frontend and backend applications. With four years of experience in Software Engineering, I am well-versed in frontend libraries such as Vuejs and React, as well as HTML and CSS.
 
-I do both front end and backend web development. I use HTML, CSS , Vuejs and other libraries. I use Node.js, Spring Boot, MongoDB in backend development. My soft skills include publick speaking, effective communication and making good presentation.
+My passion lies in solving world problems by providing efficient solutions. I thrive in the realm of web development, proficiently utilizing HTML, CSS, Vuejs, and various other libraries for front-end projects. 
 
-My personal strengths include discipline, creativity, determination, dedication, patience and enthusiasm.
+In backend development, I leverage the power of Node.js, Spring Boot, and MongoDB.
+In addition to my technical skills, I possess strong soft skills including public speaking, effective communication, and delivering impactful presentations. My personal strengths encompass discipline, creativity, determination, dedication, patience, and enthusiasm.
 
-I want to be super genius software developer who breaks down big problem into sub-problems in order to solve it easier.
+Ultimately, my aspiration is to become a highly skilled software developer, known for my ability to break down complex problems into manageable sub-problems, thereby facilitating easier and effective solutions.
 
 
